@@ -1,0 +1,12 @@
+.ProductsContainer {
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding: 1em;
+    background: #D7F2ED;
+    @media screen and(min-width: 50em) {
+        flex-flow: row wrap;
+    }
+}
